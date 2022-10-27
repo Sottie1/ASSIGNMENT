@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Registration Form Using HTML/CSS</title>
+</head>
+<body>
+   <!-- Container Start -->
+   <div id="container">
+    <!-- Form Wrap Start -->
+    <div class="form-wrap">
+      <h1>Sign Up</h1>
+      
+      <!-- Form Start -->
+      <form>
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" name="firstname" id="first-name">
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" name="firstname" id="last-name">
+        </div>
+        <div class="form-group">
+          <label for="Phone">
+            <input type="phonenumber" placeholder="Phone Number" required />
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+          <select name="gender" id="gender">
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        
+        </div>
+
+        <div class="form-group">
+          <form action="/action_page.php">
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+            
+          </form>
+
+        </div>
+        <div class="form-group">
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday">
+
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="firstname" id="first-name">
+        </div>
+        <div class="form-group">
+          <label for="cpass">Confirm Password</label>
+          <input type="password" name="firstname" id="first-name">
+        </div>
+        <button type="submit">Sign Up</button>
+        <p class="bottom-text">
+          By Clicking the Sign Up Button, you agree to our
+          <a href="#">Term & Conditions</a> and <a href="#">Primary Policy</a>
+        </p>
+      </form>
+      <!-- Form Close -->
+    </div>
+    <!-- Form Wrap Close -->
+    <footer>
+      <p>Already Have an Account? <a href="#">Login Here</a></p>
+    </footer>
+  </div>
+  <!-- Container Close -->
+
+
+
+</body>
+</html>
