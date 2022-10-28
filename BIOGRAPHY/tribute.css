@@ -1,0 +1,11 @@
+p{
+  text-align: justify;
+  max-width: 90%
+}
+h3, h1{
+  text-align: center;
+
+}
+figcaption{
+  font-size: small;
+}
